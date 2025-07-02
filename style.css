@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Amatic+SC:wght@400;700&family=Anton&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Forum&family=Monsieur+La+Doulaise&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Amatic+SC:wght@400;700&family=Anton&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Forum&family=Monsieur+La+Doulaise&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Patrick+Hand&family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 20vh 0 20vh 0;
+  padding: 5vh 3vw;
+  background-color: white;
+  max-width: 50vw;
+  width: 50vw;
+  border-radius: 15px;
+}
+
+/* ----------INTRODUCTION------------- */
+
+.title {
+  font-family: "Young Serif";
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px;
+  padding: 3vh 0;
+}
+
+h1 {
+  font-size: 32px;
+  color: hsl(24, 5%, 18%);
+}
+
+.description {
+  padding: 20px 0;
+}
+
+/* ----------PINK BLOCK------------- */
+
+.block--pink {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(332, 51%, 32%);
+  padding-bottom: 10px;
+}
+
+li {
+  padding: 5px 0 5px 20px;
+  position: relative;
+}
+
+.list_items--pink::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ul,
+ol {
+  padding: 20px 0 0 10px;
+}
+
+/* ----------SOME LISTS------------ */
+
+h2 {
+  padding: 3vh 0 0 0;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+  vertical-align: middle;
+  font-size: 10px;
+  color: hsl(14, 45%, 36%);
+}
+
+.list__items--decimal::marker {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+hr {
+  margin: 3vh 0 0 0;
+  opacity: 0.5;
+}
+
+/* ----------TABLE------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1.5px solid rgba(203, 203, 203, 0.363);
+}
+
+td {
+  padding: 15px 0 15px 30px;
+}
+
+.styled-td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+/* -----------ADAPTIVE------------ */
+
+@media(max-width: 780px){
+    main {
+     width: 100vw;
+     height: 100vh;
+    }    
+}
