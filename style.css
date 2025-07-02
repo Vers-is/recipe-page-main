@@ -36,12 +36,12 @@ main {
 .main-image {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 15px;
-  padding: 3vh 0;
 }
 
 h1 {
+  padding-top: 3vh;
   font-size: 32px;
   color: hsl(24, 5%, 18%);
 }
